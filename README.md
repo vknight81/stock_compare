@@ -1,1 +1,2 @@
-# stock_compare
+# Quick-compare
+Flexible side by side comparison app

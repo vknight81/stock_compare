@@ -1,0 +1,158 @@
+body {
+	background-image: url('../images/background_1.jpg');		
+	background-color: #08253d;
+	font-size: 2.0em;
+}
+
+h1 {
+	font-family: 'Bowlby One SC', cursive;
+	font-size: 45px;
+}
+
+h3 {
+	font-family: 'Gurajada', serif;
+	font-size: 35px;
+}
+
+.container {
+	float:top;
+	text-align:center;
+	background-color: white;
+	padding: 10px 100px;
+	margin-left:auto;
+	margin-right:auto;
+	font-family: 'Gurajada', serif;
+}
+
+.date {
+	margin: 10px 0;
+}
+
+.date>.input-group {
+	width: 100%;
+}
+
+.company>.row {
+	position: relative;
+}
+
+input[type=date] {
+	font-family: arial;
+}
+
+#left-search, #right-search {
+	background-color: #ffffff;
+	border-radius: 0;
+	font-size: 1.2em;
+}
+
+.animation {
+	text-transform: uppercase;
+	margin-right: auto;
+	margin-left: auto;
+	right: 15px;
+	font-size: 1.1;
+	opacity: 0.0;
+	position: absolute;
+	z-index: 600;
+	top: 37px;
+}
+
+.searching {
+	display: auto;
+}
+
+.dotdotdot {
+	display: none;
+}
+
+#right-type-result, #left-type-result {
+	position: absolute;
+	z-index: 100;
+	margin: 0;
+	padding: 0;
+	left: 0;
+	background: white;
+}
+
+.left-result-li, .right-result-li {
+	font-size: 15pt;
+	border: solid 1px #eee;
+	padding: 0px 5px;
+	list-style: none;
+	font-weight: light;
+	margin: 0;
+	float: left;
+	width: 100%;
+}
+
+.left-result-li:hover, .right-result-li:hover {
+	background: #eee;
+}
+
+.full-name {
+	float: left;
+}
+
+.exchange {
+	float: right;
+	margin-right: 5px;
+}
+
+.ticker {
+	font-weight: bold;
+	margin-left: 5px;
+}
+
+#left-button, #right-button {
+	display: none;
+}
+
+.ticker-symbol {
+	font-family: 'Gurajada', serif;
+	font-size: 1.5em;
+	margin-top: 15px;
+	line-height: 0.3em;
+}
+
+ul.values {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.values>li {
+	border: 1px solid #eee;
+	font-size: 1.5em;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+#left-stock-values>li>.liValue {
+	float: right;
+	width: 100px;
+}
+
+#right-stock-values>li>.liValue{
+	float: left;
+	width: 100px;
+}
+
+#chartContainer {
+	height: 250px;
+}
+
+@media (max-width: 600px) {
+	.searching {
+		display: none;
+	}
+
+	.dotdotdot {
+		display: inline;
+	}
+
+	.container {
+		padding: 10px 20px;
+	}
+}
+
